@@ -14,6 +14,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Devstrive</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bef4c271f8.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </head>
 <body> 
 
@@ -25,19 +27,31 @@
         <img src="img/mascot.png" class="mascot">
         </a>
         <li><a href="News.html">News</a></li>
-        <li><a href="#GameInfo">Game Info</a></li>
-        <li><a href="#Team">Team</a></li>
-        <li><a href="#Socials">Socials</a></li>
+        <li>
+            <a href="#GameInfo">Game Info<i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="dropdown">
+                <li><a href="News.html" class="m1"><span class="menu-item">Characters<i class="fa-solid fa-up-right-from-square"></i></span></a></li>
+                <li><a href="News.html" class="m2"><span class="menu-item">Tutorial<i class="fa-solid fa-up-right-from-square"></i></span></a></li>
+
+            </ul>
+        </li>
+        <li><a href="#Team">Team<i class="fa-solid fa-chevron-down"></i></a></li>
+        <li><a href="#Socials">Socials<i class="fa-solid fa-chevron-down"></i></a></li>
     </ul>
 
 </nav>
 
 
-<img src="img/game.png" class="game">
-<p class="p1">A fun interactive learning game about C#</p>
-<button class="Play">Play Now</button>
+
     
-<div>
+<div class="content">
+
+    <img src="img/game.png" class="game">
+    <p class="p1">A fun interactive learning game about C#</p>
+    <button class="Play">Play Now</button>
+
+
+
 <p class="q1">ARE YOU READY FOR <br>ADVENTURE?</p>
 <p class="d1">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem<br> Lorem IpsumLorem Ipsum Lorem Ipsum Lorem<br>
     Ipsum Lorem Ipsum Lorem Ipsum  Lorem Ipsum<br>Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum <br>
@@ -49,6 +63,20 @@
 
     <p class="clip">p</p>
 
+    <button class="Learn">Learn The Game</button>
+
+    <p class="q2">FRIENDS YOU MADE <br>ALONG THE WAY</p>
+    <p class="d2">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem<br> Lorem IpsumLorem Ipsum Lorem Ipsum Lorem<br>
+        Ipsum Lorem Ipsum Lorem Ipsum  Lorem Ipsum<br>Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum <br>
+        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem <br>Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum <br>
+        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem <br> Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum <br>
+        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem</p>
+
+        <img src="img/char2.PNG" class="char2">
+        <img src="img/char3.PNG" class="char3">
+        <img src="img/char4.PNG" class="char4">
+
+        <button class="chars">View Characters</button>
 
 </div>
 </body>
