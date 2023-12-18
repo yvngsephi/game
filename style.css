@@ -1,6 +1,8 @@
 /*MGA FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap');
+
 
 
 body {
@@ -8,6 +10,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(rgba(4, 9, 30, 0.427),rgba(4, 9, 30, 0.438)),
 url(img/bg.gif);
+    width: '-webkit-fill-available';
     background-size: cover;
     background-attachment: fixed;
   }
@@ -23,6 +26,8 @@ nav {
     z-index: 999;
     
 }
+
+
 
 nav ul {
   list-style: none;
@@ -288,7 +293,7 @@ button:hover {
 
 .q1 {
     color: #cbcbcb;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Press Start 2P';
     position: absolute;
     top: 900px;
     left: 100px;
@@ -312,14 +317,14 @@ button:hover {
     border-radius: 20px;
 }
 
-.clip {
+/* .clip {   
     position: absolute;
     top: 10000000px;
-}
+} */
 
 .q2 {
     color: #cbcbcb;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Press Start 2P';
     position: absolute;
     top: 1600px;
     left: 100px;
@@ -374,4 +379,268 @@ button:hover {
     left: 290px;
 }
 
+/* CHARACTER HTML */
 
+/* USER */
+.meowy{
+    margin-left: 36%;
+    margin-top:11%;
+    color: #cbcbcb;
+    font-size: 70px;
+    font-family: 'Press Start 2P';
+    position: absolute;
+}
+
+.USER {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    height: 50%;
+    width: 24%;
+    border-radius: 20px;
+}
+
+.CHARD1{
+    margin-left: 38%;
+    margin-top: 17%;
+    position: fixed;
+    color: #cbcbcb;
+    font-size: 20px; 
+    position: absolute;
+}
+
+/* FIONNA */
+.meowy1{
+    margin-left: 36%;
+    margin-top:41%;
+    position: fixed;
+    color: #cbcbcb; 
+    font-size: 70px;
+    font-family: 'Press Start 2P';
+    position: absolute;
+}
+
+.FIONNA{
+    position: absolute;
+    top: 600px;
+    left: 150px;
+    height: 50%;
+    width: 24%;
+    border-radius: 20px;
+}
+
+.CHARD2{
+    margin-left: 38%;
+    margin-top: 47%;
+    color: #cbcbcb;
+    font-size: 20px; 
+    position: absolute;
+}
+
+/* JOSH */
+.meowy2{
+    margin-left: 36%;
+    margin-top:71%;
+    color: #cbcbcb;
+    font-size: 70px;
+    font-family: 'Press Start 2P';
+    position: absolute;
+}
+
+.JOSH{
+    position: absolute;
+    top: 1050px;
+    left: 150px;
+    height: 50%;
+    width: 24%;
+    border-radius: 20px;
+}
+
+.CHARD3{
+    margin-left: 38%;
+    margin-top: 77%;
+    color: #cbcbcb;
+    font-size: 20px; 
+    position: absolute;
+}
+
+/* DAD */
+.meowy3{
+    margin-left: 36%;
+    margin-top:101%;
+    color: #cbcbcb;
+    font-size: 70px;
+    font-family: 'Press Start 2P';
+    position: absolute;
+}
+
+.DAD{
+    position: absolute;
+    top: 1500px;
+    left: 150px;
+    height: 50%;
+    width: 24%;
+    border-radius: 20px;
+}
+
+.CHARD4{
+    margin-left: 38%;
+    margin-top: 107%;
+    color: #cbcbcb;
+    font-size: 20px; 
+    position: absolute;
+}
+
+/* TUTORIAL */
+
+.T1{
+    margin-left: 9%;
+    margin-top:4%;
+    color: #cbcbcb;
+    font-size: 51px;
+    font-family: 'Press Start 2P';
+    position: absolute;  
+}
+.T2{
+    margin-left: 56%;
+    margin-top:4%;
+    color: #cbcbcb;
+    font-size: 51px;
+    font-family: 'Press Start 2P';
+    position: absolute;  
+}
+
+/* NEWS */
+.NEWS{
+    margin-left: 8%;
+    margin-top:10%;
+    color: #cbcbcb;
+    font-size: 51px;
+    font-family: 'Press Start 2P';
+    position: absolute;  
+}
+
+.N1{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    height: 30%;
+    width: 24%;
+    border-radius: 20px;
+}
+
+.N2{
+    position: absolute;
+    top: 525px;
+    left: 100px;
+    height: 30%;
+    width: 24%;
+    border-radius: 20px;
+}
+
+.N3{
+    position: absolute;
+    top: 800px;
+    left: 100px;
+    height: 30%;
+    width: 24%;
+    border-radius: 20px;
+}
+
+.NEWSD1{
+    margin-left: 34%;
+    margin-top:17%;
+    position: fixed;
+    color: #cbcbcb;
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute; 
+}
+
+.NEWSD2{
+    margin-left: 34%;
+    margin-top:37%;
+    position: fixed;
+    color: #cbcbcb;
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute; 
+}
+
+.NEWSD3{
+    margin-left: 34%;
+    margin-top:57%;
+    position: fixed;
+    color: #cbcbcb;
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute; 
+}
+
+/* MESSAGE */
+.MSG{
+    margin-left: 7%;
+    margin-top:11%;
+    position: fixed;
+    color: #cbcbcb;
+    font-size: 50px;
+    font-family: 'Press Start 2P';
+    position: absolute;
+}
+
+.MSG1{
+    margin-left: 8%;
+    margin-top:15%;
+    position: fixed;
+    color: #cbcbcb;
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+}
+
+.SUBMIT{
+    position: absolute;
+    left: 110px;
+    top: 550px;
+}
+
+.SUBMIT:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* PLAY */
+.PLAY{
+    margin-left: 7%;
+    margin-top:11%;
+    position: fixed;
+    color: #cbcbcb;
+    font-size: 45px;
+    font-family: 'Press Start 2P';
+    position: absolute;
+}
+
+.PLAY1{
+    margin-left: 7%;
+    margin-top:17%;
+    position: fixed;
+    color: #cbcbcb;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+}
+
+.DOWNLOAD{
+    position: absolute;
+    left: 110px;
+    top: 300px;
+}
+
+.DOWNLOAD:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s;
+}
