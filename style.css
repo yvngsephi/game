@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Montserrat:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+}
 
 
 body {
@@ -348,8 +352,8 @@ button:hover {
 
 .char2 {
     position: absolute;
-    top: 1970px;
-    left: 790px;
+    top: 2030px;
+    left: 990px;
     height: 30%;
     width: 15%;
     border-radius: 20px;
@@ -357,8 +361,8 @@ button:hover {
 
 .char3 {
     position: absolute;
-    top: 2000px;
-    left: 970px;
+    top: 1800px;
+    left: 1100px;
     height: 30%;
     width: 15%;
     border-radius: 20px;
@@ -503,7 +507,7 @@ button:hover {
 }
 .T2{
     margin-left: 56%;
-    margin-top:4%;
+    margin-top: 1%;
     color: #cbcbcb;
     font-size: 51px;
     font-family: 'Press Start 2P';
@@ -643,4 +647,52 @@ button:hover {
     color: black;
     cursor: pointer;
     transition: 0.2s;
+}
+
+.first{
+    margin-top: 10%;
+    margin-left: 8%;
+}
+
+.second{
+    margin-top: 10px;
+    margin-left: 8%;
+}
+
+.third{
+    margin-top: 10px;
+    margin-left: 8%;
+}
+
+.fourth{
+    margin-top: 10px;
+    margin-left: 8%;
+}
+
+.forward{
+    color: #cbcbcb;
+    font-size: 25px;
+    margin-left: 15%;
+    margin-top: 0px;
+}
+
+.backward{
+    color: #cbcbcb;
+    font-size: 25px;
+    margin-left: 15%;
+    margin-top: 0px;
+}
+
+.left{
+    color: #cbcbcb;
+    font-size: 25px;
+    margin-left: 15%;
+    margin-top: 0px;
+}
+
+.right{
+    color: #cbcbcb;
+    font-size: 25px;
+    margin-left: 15%;
+    margin-top: 0px;
 }
