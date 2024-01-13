@@ -1094,3 +1094,9 @@ button:hover {
     border-radius: 20px;
 }
 
+
+.Up {
+    position: absolute;
+    top: 320%;
+    left: 85%;
+}
