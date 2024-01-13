@@ -75,7 +75,7 @@
 
     <img src="img/game.png" class="game">
     <p class="p1">A fun interactive learning game about C#</p>
-    <a href="Play.html"><button class="Play">Play Now</button></a>
+    <a href="Play.html" id="downloadButton"><button class="Play">Play Now</button></a>
 
 </div>
 
@@ -113,6 +113,19 @@
 
         <a href="Characters.html"><button class="chars">View Characters</button></a>
 </div>
+
+<button type="submit" onclick="topFunction()" id="Up" class="Up">Go up</button>
+
+<script>
+    let mybutton = document.getElementById("Up");
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+
+</script>
 
 </body>
 </html>
